@@ -14,8 +14,8 @@ gem 'dotenv-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'unicorn' # アプリケーションサーバのunicorn
 gem 'mini_racer', platforms: :ruby # デプロイ時に必要
-# gem 'ed25519'
-# gem 'bcrypt_pbkdf'
+gem 'ed25519'
+gem 'bcrypt_pbkdf'
 
 group :development, :test do
   gem 'capistrano', '3.6.0' # capistranoのツール一式
